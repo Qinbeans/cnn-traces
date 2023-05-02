@@ -1,0 +1,66 @@
+CNN:
+Layers: 2
+	{
+		Layer: 0
+		Type: Input
+		Filters: 0
+		Filter Size: 0
+		Stride: 0
+		Matrix Sides: 2
+		Channels: 1
+		Activation: Sigmoid
+		Bias: 0.0100000000000000
+		Weights: 
+	}
+	{
+		Layer: 1
+		Type: Fully Connected
+		Filters: 0
+		Filter Size: 0
+		Stride: 0
+		Matrix Sides: 1
+		Channels: 1
+		Activation: Sigmoid
+		Bias: 0.0100000000000000
+		Weights: 
+			[
+				[-0.0530000000000000, ]
+				[0.0500000000000000, ]
+				[0.0380000000000000, ]
+				[-0.0370000000000000, ]
+			]
+	}
+Inputs: 1
+			[
+				[5.0000000000000000, 10.0000000000000000, ]
+				[100.0000000000000000, 20.0000000000000000, ]
+			]
+Layer 0 preprocessed output: 
+			[
+				[5.0000000000000000, 10.0000000000000000, ]
+				[100.0000000000000000, 20.0000000000000000, ]
+			]
+1 outputs 1 channels
+Layer 0 output: 
+			[
+				[5.0000000000000000, 10.0000000000000000, ]
+				[100.0000000000000000, 20.0000000000000000, ]
+			]
+Layer 1 preprocessed output: 
+			[
+				[3.2950000000000000, ]
+			]
+1 outputs 1 channels
+Layer 1 bias: 0.0100000000000000
+			[
+				[3.3050000000000000, ]
+			]
+Layer 1 output: 
+			[
+				[0.9645999423773282, ]
+			]
+Layer output: 
+Output Filter 0
+			[
+				[0.9645999423773282, ]
+			]
